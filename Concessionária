@@ -1,0 +1,21 @@
+public class Cliente{
+    public string nome;
+    public int rg;
+    public int CPF;
+    public int celular;
+    
+    public class carro{
+        public String marca;
+        public String modelo;
+        public int anoFabricação;
+        public String proprietarioAtual;
+        public String proprietarioAnterior;
+        public void mudarPorpriedade(String novoDono){
+            proprietarioAnterior = proprietarioAtual
+            proprietarioAtual = novoDono
+        }
+        
+        
+    }
+    
+}
